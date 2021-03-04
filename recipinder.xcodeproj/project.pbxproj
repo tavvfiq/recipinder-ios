@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6376C1725EF952B00937B83 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6376C1225EF952B00937B83 /* RxCocoa.xcframework */; };
+		A6376C1825EF952B00937B83 /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6376C1225EF952B00937B83 /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6376C1925EF952B00937B83 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6376C1325EF952B00937B83 /* RxSwift.xcframework */; };
+		A6376C1A25EF952B00937B83 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6376C1325EF952B00937B83 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6376C1B25EF952B00937B83 /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6376C1425EF952B00937B83 /* RxBlocking.xcframework */; };
+		A6376C1C25EF952B00937B83 /* RxBlocking.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6376C1425EF952B00937B83 /* RxBlocking.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6376C1D25EF952B00937B83 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6376C1525EF952B00937B83 /* RxRelay.xcframework */; };
+		A6376C1E25EF952B00937B83 /* RxRelay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6376C1525EF952B00937B83 /* RxRelay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6376C1F25EF952B00937B83 /* RxTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6376C1625EF952B00937B83 /* RxTest.xcframework */; };
+		A6376C2025EF952B00937B83 /* RxTest.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6376C1625EF952B00937B83 /* RxTest.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A6537F7A25EE3E4B00D8970C /* recipinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6537F7925EE3E4B00D8970C /* recipinderApp.swift */; };
 		A6537F7C25EE3E4B00D8970C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6537F7B25EE3E4B00D8970C /* ContentView.swift */; };
 		A6537F7E25EE3E4C00D8970C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6537F7D25EE3E4C00D8970C /* Assets.xcassets */; };
@@ -14,6 +24,7 @@
 		A6537F8C25EE3E4C00D8970C /* recipinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6537F8B25EE3E4C00D8970C /* recipinderTests.swift */; };
 		A6537F9725EE3E4C00D8970C /* recipinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6537F9625EE3E4C00D8970C /* recipinderUITests.swift */; };
 		A6537FAE25EE46B800D8970C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6537FAD25EE46B800D8970C /* Home.swift */; };
+		A6537FCB25EE588400D8970C /* RecipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6537FCA25EE588400D8970C /* RecipeInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +44,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A6376C2125EF952B00937B83 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A6376C1825EF952B00937B83 /* RxCocoa.xcframework in Embed Frameworks */,
+				A6376C1E25EF952B00937B83 /* RxRelay.xcframework in Embed Frameworks */,
+				A6376C1C25EF952B00937B83 /* RxBlocking.xcframework in Embed Frameworks */,
+				A6376C2025EF952B00937B83 /* RxTest.xcframework in Embed Frameworks */,
+				A6376C1A25EF952B00937B83 /* RxSwift.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A6376C1125EF951700937B83 /* Carthage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Carthage; sourceTree = "<group>"; };
+		A6376C1225EF952B00937B83 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		A6376C1325EF952B00937B83 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		A6376C1425EF952B00937B83 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
+		A6376C1525EF952B00937B83 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		A6376C1625EF952B00937B83 /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
 		A6537F7625EE3E4B00D8970C /* recipinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recipinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6537F7925EE3E4B00D8970C /* recipinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipinderApp.swift; sourceTree = "<group>"; };
 		A6537F7B25EE3E4B00D8970C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +82,7 @@
 		A6537F9625EE3E4C00D8970C /* recipinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipinderUITests.swift; sourceTree = "<group>"; };
 		A6537F9825EE3E4C00D8970C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6537FAD25EE46B800D8970C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A6537FCA25EE588400D8970C /* RecipeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6376C1725EF952B00937B83 /* RxCocoa.xcframework in Frameworks */,
+				A6376C1D25EF952B00937B83 /* RxRelay.xcframework in Frameworks */,
+				A6376C1B25EF952B00937B83 /* RxBlocking.xcframework in Frameworks */,
+				A6376C1F25EF952B00937B83 /* RxTest.xcframework in Frameworks */,
+				A6376C1925EF952B00937B83 /* RxSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +115,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6376C1025EF951700937B83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6376C1425EF952B00937B83 /* RxBlocking.xcframework */,
+				A6376C1225EF952B00937B83 /* RxCocoa.xcframework */,
+				A6376C1525EF952B00937B83 /* RxRelay.xcframework */,
+				A6376C1325EF952B00937B83 /* RxSwift.xcframework */,
+				A6376C1625EF952B00937B83 /* RxTest.xcframework */,
+				A6376C1125EF951700937B83 /* Carthage */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A64AF00B25EE92D70014F3BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A6537F6D25EE3E4B00D8970C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +142,7 @@
 				A6537F8A25EE3E4C00D8970C /* recipinderTests */,
 				A6537F9525EE3E4C00D8970C /* recipinderUITests */,
 				A6537F7725EE3E4B00D8970C /* Products */,
+				A6376C1025EF951700937B83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +159,10 @@
 		A6537F7825EE3E4B00D8970C /* recipinder */ = {
 			isa = PBXGroup;
 			children = (
-				A6537FB625EE4B8100D8970C /* repository */,
-				A6537FB525EE4B7900D8970C /* interactor */,
-				A6537FA725EE464F00D8970C /* view */,
+				A6537FC025EE552E00D8970C /* Utilities */,
+				A6537FB625EE4B8100D8970C /* Repositories */,
+				A6537FB525EE4B7900D8970C /* Interactors */,
+				A6537FA725EE464F00D8970C /* UI */,
 				A6537F7925EE3E4B00D8970C /* recipinderApp.swift */,
 				A6537F7B25EE3E4B00D8970C /* ContentView.swift */,
 				A6537F7D25EE3E4C00D8970C /* Assets.xcassets */,
@@ -135,50 +198,99 @@
 			path = recipinderUITests;
 			sourceTree = "<group>";
 		};
-		A6537FA725EE464F00D8970C /* view */ = {
+		A6537FA725EE464F00D8970C /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A6537FAA25EE467400D8970C /* screen */,
-				A6537FA925EE466B00D8970C /* shared */,
-				A6537FA825EE465B00D8970C /* navigation */,
+				A64AF00B25EE92D70014F3BF /* View */,
+				A6537FAA25EE467400D8970C /* Screen */,
+				A6537FA925EE466B00D8970C /* Shared */,
 			);
-			path = view;
+			path = UI;
 			sourceTree = "<group>";
 		};
-		A6537FA825EE465B00D8970C /* navigation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = navigation;
-			sourceTree = "<group>";
-		};
-		A6537FA925EE466B00D8970C /* shared */ = {
+		A6537FA925EE466B00D8970C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = shared;
+			path = Shared;
 			sourceTree = "<group>";
 		};
-		A6537FAA25EE467400D8970C /* screen */ = {
+		A6537FAA25EE467400D8970C /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A6537FC925EE584500D8970C /* Settings */,
+				A6537FC825EE583C00D8970C /* SavedRecipe */,
+				A6537FC725EE580D00D8970C /* RecipeDetail */,
+				A6537FC425EE57D400D8970C /* Home */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		A6537FB525EE4B7900D8970C /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				A6537FC525EE57FD00D8970C /* Recipe */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		A6537FB625EE4B8100D8970C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				A6537FC625EE580400D8970C /* Recipe */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		A6537FC025EE552E00D8970C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A6537FC425EE57D400D8970C /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				A6537FAD25EE46B800D8970C /* Home.swift */,
 			);
-			path = screen;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		A6537FB525EE4B7900D8970C /* interactor */ = {
+		A6537FC525EE57FD00D8970C /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				A6537FCA25EE588400D8970C /* RecipeInteractor.swift */,
+			);
+			path = Recipe;
+			sourceTree = "<group>";
+		};
+		A6537FC625EE580400D8970C /* Recipe */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = interactor;
+			path = Recipe;
 			sourceTree = "<group>";
 		};
-		A6537FB625EE4B8100D8970C /* repository */ = {
+		A6537FC725EE580D00D8970C /* RecipeDetail */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = repository;
+			path = RecipeDetail;
+			sourceTree = "<group>";
+		};
+		A6537FC825EE583C00D8970C /* SavedRecipe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SavedRecipe;
+			sourceTree = "<group>";
+		};
+		A6537FC925EE584500D8970C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +301,10 @@
 			buildConfigurationList = A6537F9B25EE3E4C00D8970C /* Build configuration list for PBXNativeTarget "recipinder" */;
 			buildPhases = (
 				A6537F7225EE3E4B00D8970C /* Sources */,
+				A651BB4425EE79FC00B87E91 /* ShellScript */,
 				A6537F7325EE3E4B00D8970C /* Frameworks */,
 				A6537F7425EE3E4B00D8970C /* Resources */,
+				A6376C2125EF952B00937B83 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,6 +419,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A651BB4425EE79FC00B87E91 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A6537F7225EE3E4B00D8970C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -313,6 +447,7 @@
 				A6537F7C25EE3E4B00D8970C /* ContentView.swift in Sources */,
 				A6537FAE25EE46B800D8970C /* Home.swift in Sources */,
 				A6537F7A25EE3E4B00D8970C /* recipinderApp.swift in Sources */,
+				A6537FCB25EE588400D8970C /* RecipeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,28 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A6BB867025F099740005B147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB866F25F099740005B147 /* AppDelegate.swift */; };
 		A6BB867225F099740005B147 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB867125F099740005B147 /* SceneDelegate.swift */; };
 		A6BB867425F099740005B147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB867325F099740005B147 /* ViewController.swift */; };
-		A6BB867725F099740005B147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BB867525F099740005B147 /* Main.storyboard */; };
 		A6BB867925F099750005B147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6BB867825F099750005B147 /* Assets.xcassets */; };
 		A6BB867C25F099750005B147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BB867A25F099750005B147 /* LaunchScreen.storyboard */; };
 		A6BB868725F099760005B147 /* recipinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB868625F099760005B147 /* recipinderTests.swift */; };
 		A6BB869225F099760005B147 /* recipinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB869125F099760005B147 /* recipinderUITests.swift */; };
-		A6BB86AB25F099E60005B147 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB86A625F099E60005B147 /* RxSwift.xcframework */; };
-		A6BB86AC25F099E60005B147 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB86A625F099E60005B147 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A6BB86AD25F099E60005B147 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB86A725F099E60005B147 /* RxRelay.xcframework */; };
-		A6BB86AE25F099E60005B147 /* RxRelay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB86A725F099E60005B147 /* RxRelay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A6BB86AF25F099E60005B147 /* RxTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB86A825F099E60005B147 /* RxTest.xcframework */; };
-		A6BB86B025F099E60005B147 /* RxTest.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB86A825F099E60005B147 /* RxTest.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A6BB86B125F099E60005B147 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB86A925F099E60005B147 /* RxCocoa.xcframework */; };
-		A6BB86B225F099E60005B147 /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB86A925F099E60005B147 /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A6BB86B325F099E60005B147 /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB86AA25F099E60005B147 /* RxBlocking.xcframework */; };
-		A6BB86B425F099E60005B147 /* RxBlocking.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB86AA25F099E60005B147 /* RxBlocking.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6BB86F925F0AF4C0005B147 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6BB86F825F0AF4C0005B147 /* avatar.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,17 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A6BB86B525F099E60005B147 /* Embed Frameworks */ = {
+		A6BB86DF25F0A1D00005B147 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A6BB86AC25F099E60005B147 /* RxSwift.xcframework in Embed Frameworks */,
-				A6BB86B225F099E60005B147 /* RxCocoa.xcframework in Embed Frameworks */,
-				A6BB86B025F099E60005B147 /* RxTest.xcframework in Embed Frameworks */,
-				A6BB86B425F099E60005B147 /* RxBlocking.xcframework in Embed Frameworks */,
-				A6BB86AE25F099E60005B147 /* RxRelay.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,7 +52,6 @@
 		A6BB866F25F099740005B147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6BB867125F099740005B147 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A6BB867325F099740005B147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A6BB867625F099740005B147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6BB867825F099750005B147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6BB867B25F099750005B147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6BB867D25F099750005B147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,11 +61,7 @@
 		A6BB868D25F099760005B147 /* recipinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recipinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6BB869125F099760005B147 /* recipinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipinderUITests.swift; sourceTree = "<group>"; };
 		A6BB869325F099760005B147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6BB86A625F099E60005B147 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = ../Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
-		A6BB86A725F099E60005B147 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = ../Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
-		A6BB86A825F099E60005B147 /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = ../Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
-		A6BB86A925F099E60005B147 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = ../Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
-		A6BB86AA25F099E60005B147 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = ../Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
+		A6BB86F825F0AF4C0005B147 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = avatar.jpg; path = ../../../../../Dropbox/Photos/avatar.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6BB86AB25F099E60005B147 /* RxSwift.xcframework in Frameworks */,
-				A6BB86B125F099E60005B147 /* RxCocoa.xcframework in Frameworks */,
-				A6BB86AF25F099E60005B147 /* RxTest.xcframework in Frameworks */,
-				A6BB86B325F099E60005B147 /* RxBlocking.xcframework in Frameworks */,
-				A6BB86AD25F099E60005B147 /* RxRelay.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,10 +113,10 @@
 		A6BB866E25F099740005B147 /* recipinder */ = {
 			isa = PBXGroup;
 			children = (
+				A6BB86F825F0AF4C0005B147 /* avatar.jpg */,
 				A6BB866F25F099740005B147 /* AppDelegate.swift */,
 				A6BB867125F099740005B147 /* SceneDelegate.swift */,
 				A6BB867325F099740005B147 /* ViewController.swift */,
-				A6BB867525F099740005B147 /* Main.storyboard */,
 				A6BB867825F099750005B147 /* Assets.xcassets */,
 				A6BB867A25F099750005B147 /* LaunchScreen.storyboard */,
 				A6BB867D25F099750005B147 /* Info.plist */,
@@ -170,11 +145,6 @@
 		A6BB86A525F099E60005B147 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A6BB86AA25F099E60005B147 /* RxBlocking.xcframework */,
-				A6BB86A925F099E60005B147 /* RxCocoa.xcframework */,
-				A6BB86A725F099E60005B147 /* RxRelay.xcframework */,
-				A6BB86A625F099E60005B147 /* RxSwift.xcframework */,
-				A6BB86A825F099E60005B147 /* RxTest.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,7 +159,7 @@
 				A6BB866825F099740005B147 /* Sources */,
 				A6BB866925F099740005B147 /* Frameworks */,
 				A6BB866A25F099740005B147 /* Resources */,
-				A6BB86B525F099E60005B147 /* Embed Frameworks */,
+				A6BB86DF25F0A1D00005B147 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,9 +253,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6BB86F925F0AF4C0005B147 /* avatar.jpg in Resources */,
 				A6BB867C25F099750005B147 /* LaunchScreen.storyboard in Resources */,
 				A6BB867925F099750005B147 /* Assets.xcassets in Resources */,
-				A6BB867725F099740005B147 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,14 +318,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6BB867525F099740005B147 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6BB867625F099740005B147 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A6BB867A25F099750005B147 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

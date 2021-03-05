@@ -13,13 +13,34 @@ import UIKit
 final class HomeViewController: UIViewController {
 
     // MARK: - Public properties -
-
     var presenter: HomePresenterInterface!
 
-    // MARK: - Lifecycle -
+    // MARK: - Components -
+    lazy private var _card: CardView = {
+        var card = CardView()
+        return card
+    }()
 
+    // MARK: - Methods -
+    private func registerComponents(){
+        view.addSubview(_card)
+    }
+
+    private func applyComponentConstraint(){
+        _card.applyConstraints(in: self.view)
+    }
+
+    private func configureController(){
+        self.title = "recipinder"
+        view.backgroundColor = .white
+    }
+
+    // MARK: - Lifecycle -
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureController()
+        registerComponents()
+        applyComponentConstraint()
     }
 
 }
@@ -28,3 +49,25 @@ final class HomeViewController: UIViewController {
 
 extension HomeViewController: HomeViewInterface {
 }
+
+#if DEBUG
+import SwiftUI
+
+struct HomeVCRepresentable: UIViewControllerRepresentable {
+    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
+        // leave this empty
+    }
+
+    @available(iOS 13.0.0, *)
+    func makeUIViewController(context: Context) -> UIViewController {
+        HomeViewController()
+    }
+}
+
+@available(iOS 13.0, *)
+struct HomeVCPreview: PreviewProvider {
+    static var previews: some View {
+        HomeVCRepresentable()
+    }
+}
+#endif

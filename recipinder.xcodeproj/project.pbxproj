@@ -18,17 +18,21 @@
 		A671DA0C25F0F19A00512187 /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA0725F0F19A00512187 /* HomeWireframe.swift */; };
 		A671DA2925F0F33400512187 /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA2325F0F33400512187 /* ViewInterface.swift */; };
 		A671DA2A25F0F33400512187 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA2425F0F33400512187 /* BaseWireframe.swift */; };
-		A671DA2B25F0F33400512187 /* FormatterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA2525F0F33400512187 /* FormatterInterface.swift */; };
 		A671DA2C25F0F33400512187 /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA2625F0F33400512187 /* InteractorInterface.swift */; };
-		A671DA2D25F0F33400512187 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA2725F0F33400512187 /* UIStoryboardExtension.swift */; };
 		A671DA2E25F0F33400512187 /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA2825F0F33400512187 /* PresenterInterface.swift */; };
+		A671DA7025F1117700512187 /* RecipeDetailInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA6B25F1117700512187 /* RecipeDetailInterfaces.swift */; };
+		A671DA7125F1117700512187 /* RecipeDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA6C25F1117700512187 /* RecipeDetailPresenter.swift */; };
+		A671DA7225F1117700512187 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA6D25F1117700512187 /* RecipeDetailViewController.swift */; };
+		A671DA7325F1117700512187 /* RecipeDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA6E25F1117700512187 /* RecipeDetailInteractor.swift */; };
+		A671DA7425F1117700512187 /* RecipeDetailWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA6F25F1117700512187 /* RecipeDetailWireframe.swift */; };
+		A671DA7A25F1219F00512187 /* RecipinderNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671DA7925F1219F00512187 /* RecipinderNavigationController.swift */; };
 		A6BB867025F099740005B147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB866F25F099740005B147 /* AppDelegate.swift */; };
 		A6BB867225F099740005B147 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB867125F099740005B147 /* SceneDelegate.swift */; };
-		A6BB867425F099740005B147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB867325F099740005B147 /* ViewController.swift */; };
 		A6BB867925F099750005B147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6BB867825F099750005B147 /* Assets.xcassets */; };
 		A6BB867C25F099750005B147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BB867A25F099750005B147 /* LaunchScreen.storyboard */; };
 		A6BB868725F099760005B147 /* recipinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB868625F099760005B147 /* recipinderTests.swift */; };
 		A6BB869225F099760005B147 /* recipinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB869125F099760005B147 /* recipinderUITests.swift */; };
+		A6F04D5225F1AFDC00B6E922 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F04D5125F1AFDC00B6E922 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,14 +81,17 @@
 		A671DA0725F0F19A00512187 /* HomeWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
 		A671DA2325F0F33400512187 /* ViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
 		A671DA2425F0F33400512187 /* BaseWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
-		A671DA2525F0F33400512187 /* FormatterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatterInterface.swift; sourceTree = "<group>"; };
 		A671DA2625F0F33400512187 /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
-		A671DA2725F0F33400512187 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
 		A671DA2825F0F33400512187 /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
+		A671DA6B25F1117700512187 /* RecipeDetailInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailInterfaces.swift; sourceTree = "<group>"; };
+		A671DA6C25F1117700512187 /* RecipeDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailPresenter.swift; sourceTree = "<group>"; };
+		A671DA6D25F1117700512187 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		A671DA6E25F1117700512187 /* RecipeDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailInteractor.swift; sourceTree = "<group>"; };
+		A671DA6F25F1117700512187 /* RecipeDetailWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailWireframe.swift; sourceTree = "<group>"; };
+		A671DA7925F1219F00512187 /* RecipinderNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipinderNavigationController.swift; sourceTree = "<group>"; };
 		A6BB866C25F099740005B147 /* recipinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recipinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6BB866F25F099740005B147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6BB867125F099740005B147 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6BB867325F099740005B147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6BB867825F099750005B147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6BB867B25F099750005B147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6BB867D25F099750005B147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +101,7 @@
 		A6BB868D25F099760005B147 /* recipinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recipinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6BB869125F099760005B147 /* recipinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipinderUITests.swift; sourceTree = "<group>"; };
 		A6BB869325F099760005B147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F04D5125F1AFDC00B6E922 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BC4EEF19C6223E49318BC691 /* Pods_recipinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recipinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02FA877BAFAB859E9E5D5E4 /* Pods-recipinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipinder.debug.xcconfig"; path = "Target Support Files/Pods-recipinder/Pods-recipinder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +152,7 @@
 			children = (
 				A6BB866F25F099740005B147 /* AppDelegate.swift */,
 				A6BB867125F099740005B147 /* SceneDelegate.swift */,
+				A671DA7925F1219F00512187 /* RecipinderNavigationController.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -151,6 +160,8 @@
 		A671D9FF25F0F0B500512187 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				A671DA7725F1119300512187 /* Settings */,
+				A671DA5A25F110B300512187 /* RecipeDetail */,
 				A671DA0225F0F18400512187 /* Home */,
 			);
 			path = Modules;
@@ -159,6 +170,7 @@
 		A671DA0025F0F0C100512187 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A6BB867825F099750005B147 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -166,7 +178,8 @@
 		A671DA0125F0F0C800512187 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				A671DA1C25F0F2EB00512187 /* BaseInterface */,
+				A671DA7825F1217F00512187 /* Views */,
+				A671DA1C25F0F2EB00512187 /* VIPER */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -183,17 +196,42 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		A671DA1C25F0F2EB00512187 /* BaseInterface */ = {
+		A671DA1C25F0F2EB00512187 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
 				A671DA2425F0F33400512187 /* BaseWireframe.swift */,
-				A671DA2525F0F33400512187 /* FormatterInterface.swift */,
 				A671DA2625F0F33400512187 /* InteractorInterface.swift */,
 				A671DA2825F0F33400512187 /* PresenterInterface.swift */,
-				A671DA2725F0F33400512187 /* UIStoryboardExtension.swift */,
 				A671DA2325F0F33400512187 /* ViewInterface.swift */,
 			);
-			path = BaseInterface;
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		A671DA5A25F110B300512187 /* RecipeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A671DA6B25F1117700512187 /* RecipeDetailInterfaces.swift */,
+				A671DA6C25F1117700512187 /* RecipeDetailPresenter.swift */,
+				A671DA6D25F1117700512187 /* RecipeDetailViewController.swift */,
+				A671DA6E25F1117700512187 /* RecipeDetailInteractor.swift */,
+				A671DA6F25F1117700512187 /* RecipeDetailWireframe.swift */,
+			);
+			path = RecipeDetail;
+			sourceTree = "<group>";
+		};
+		A671DA7725F1119300512187 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A671DA7825F1217F00512187 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6F04D5025F1AFC700B6E922 /* CardView */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		A6BB866325F099740005B147 = {
@@ -226,8 +264,6 @@
 				A671D9FF25F0F0B500512187 /* Modules */,
 				A671D9FE25F0F0AD00512187 /* Application */,
 				A65D1F3425F0E56E00926884 /* avatar.jpg */,
-				A6BB867325F099740005B147 /* ViewController.swift */,
-				A6BB867825F099750005B147 /* Assets.xcassets */,
 				A6BB867A25F099750005B147 /* LaunchScreen.storyboard */,
 				A6BB867D25F099750005B147 /* Info.plist */,
 			);
@@ -260,6 +296,14 @@
 				BC4EEF19C6223E49318BC691 /* Pods_recipinderTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F04D5025F1AFC700B6E922 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				A6F04D5125F1AFDC00B6E922 /* CardView.swift */,
+			);
+			path = CardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -521,17 +565,21 @@
 			files = (
 				A671DA2C25F0F33400512187 /* InteractorInterface.swift in Sources */,
 				A671DA0825F0F19A00512187 /* HomeInterfaces.swift in Sources */,
-				A671DA2B25F0F33400512187 /* FormatterInterface.swift in Sources */,
 				A671DA2A25F0F33400512187 /* BaseWireframe.swift in Sources */,
 				A671DA0C25F0F19A00512187 /* HomeWireframe.swift in Sources */,
-				A6BB867425F099740005B147 /* ViewController.swift in Sources */,
+				A671DA7125F1117700512187 /* RecipeDetailPresenter.swift in Sources */,
 				A671DA2E25F0F33400512187 /* PresenterInterface.swift in Sources */,
+				A671DA7A25F1219F00512187 /* RecipinderNavigationController.swift in Sources */,
 				A6BB867025F099740005B147 /* AppDelegate.swift in Sources */,
 				A671DA2925F0F33400512187 /* ViewInterface.swift in Sources */,
-				A671DA2D25F0F33400512187 /* UIStoryboardExtension.swift in Sources */,
 				A671DA0925F0F19A00512187 /* HomePresenter.swift in Sources */,
+				A6F04D5225F1AFDC00B6E922 /* CardView.swift in Sources */,
+				A671DA7025F1117700512187 /* RecipeDetailInterfaces.swift in Sources */,
+				A671DA7425F1117700512187 /* RecipeDetailWireframe.swift in Sources */,
 				A6BB867225F099740005B147 /* SceneDelegate.swift in Sources */,
 				A671DA0A25F0F19A00512187 /* HomeViewController.swift in Sources */,
+				A671DA7325F1117700512187 /* RecipeDetailInteractor.swift in Sources */,
+				A671DA7225F1117700512187 /* RecipeDetailViewController.swift in Sources */,
 				A671DA0B25F0F19A00512187 /* HomeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

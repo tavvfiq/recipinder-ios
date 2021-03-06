@@ -8,7 +8,6 @@ target 'recipinder' do
   # Pods for recipinder
   pod 'RxSwift', '6.1.0'
   pod 'RxCocoa', '6.1.0'
-  pod 'SnapKit', '~> 5.0.0'
 
   target 'recipinderTests' do
     inherit! :search_paths

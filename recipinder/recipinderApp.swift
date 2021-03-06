@@ -13,7 +13,7 @@ struct recipinderApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }.onChange(of: scenePhase, perform: { (newScenePhase) ->() in
             switch newScenePhase {
             case .background:
